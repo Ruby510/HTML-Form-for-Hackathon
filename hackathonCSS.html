@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CPSC 349-01</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>CSUF Hackathon</h1>
+  <form>
+    <p>
+      <label for="f_name">
+        <strong>
+          First Name:
+        </strong>
+      </label>
+      <input type="text" placeholder="Enter your first name" name="f_name" id="f_name" />
+    </p>
+    <p>
+      <label for="l_name">
+        <strong>
+          Last Name:
+        </strong>
+      </label>
+      <input type="text" placeholder="Enter your last name" name="l_name" id="l_name" />
+    </p>
+    <p>
+      <label for="cwid">
+        <strong>
+          CWID:
+        </strong>
+      </label>
+      <input type="number" placeholder="Enter your CWID" name="cwid" />
+    </p>
+    <p>
+      <label for="dob">
+        <strong>
+          Date of Birth:
+        </strong>
+      </label>
+      <input type="date" name="dob" id="dob" />
+    </p>
+    <div>
+      <p>
+        <strong>
+          Preferred Programming Languages
+        </strong>
+      </p>
+      <div>
+        <input type="checkbox" name="python" id="python">
+        <label for="python">Python</label>
+      </div>
+      <div>
+        <input type="checkbox" name="cpp" id="cpp">
+        <label for="cpp">C++</label>
+      </div>
+      <div>
+        <input type="checkbox" name="js" id="js">
+        <label for="js">Javascript</label>
+      </div>
+      <div>
+        <input type="checkbox" name="java" id="java">
+        <label for="java">Java
+        </label>
+      </div>
+    </div>
+    <div>
+      <p>
+        <label><strong>Gender</strong></label>
+      </p>
+      <input type="radio" name="gender" id="">Male
+      <input type="radio" name="gender" id="">Female
+      <input type="radio" name="gender" id="">Other
+    </div>
+    <hr />
+    <div>
+      <p>
+        <label for="reasonsToJoin">
+          <strong>
+            Reasons to join Hackathon
+          </strong>
+        </label>
+      <div>
+        <textarea rows="10" cols="80" name="reasonsToJoin" id="reasonsToJoin"></textarea>
+      </div>
+      </p>
+    </div>
+    <p>
+      <button type="submit">Register</button>
+    </p>
+
+  </form>
+</body>
+
+</html>
